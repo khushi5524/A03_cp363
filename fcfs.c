@@ -12,7 +12,7 @@ struct threadInfo {
 
 int main() {
 
-/* Open the input file *=
+/* Open the input file */
 FILE *input_file = fopen("sample_in_schedule.txt", "r");
 if (input_file == NULL) {
     printf("Failed to open input file.\n");
